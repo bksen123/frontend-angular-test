@@ -16,27 +16,52 @@ It fetches a list of users from a public API and displays them in a table with *
 
 ## 📂 Project Structure (Recommended)
 
-```
 frontend-angular-test/
 │
 ├── src/
-│   ├── app/
-│   │   ├── services/
-│   │   │   └── users.service.ts
-│   │   ├── components/
-│   │   │   └── user-list/
-│   │   │       ├── user-list.component.ts
-│   │   │       ├── user-list.component.html
-│   │   │       └── user-list.component.css
-│   │   ├── app.module.ts
-│   │   └── app.component.ts
-│   └── environments/
+│ ├── app/
+│ │ ├── layouts/
+│ │ │ └── admin-layout/
+│ │ │ ├── admin-layout.component.ts
+│ │ │ ├── admin-layout.component.html
+│ │ │ ├── admin-layout.component.scss
+│ │ │ ├── admin-layout.component.spec.ts
+│ │ │ └── admin-layout.routes.ts
+│ │ │
+│ │ ├── shared-ui/
+│ │ │ ├── alert/
+│ │ │ ├── directives/
+│ │ │ ├── filters-pipes/
+│ │ │ ├── guard/
+│ │ │ ├── json/
+│ │ │ ├── loading/
+│ │ │ ├── models/
+│ │ │ ├── services/
+│ │ │ ├── index.ts
+│ │ │ ├── shared-ui.module.ts
+│ │ │ └── WindowRef.ts
+│ │ │
+│ │ ├── views/
+│ │ │ └── admin-pages/
+│ │ │ └── dashboard/
+│ │ │ ├── dashboard.component.ts
+│ │ │ ├── dashboard.component.html
+│ │ │ ├── dashboard.component.scss
+│ │ │ └── dashboard.component.spec.ts
+│ │ │
+│ │ ├── app.component.ts
+│ │ ├── app.component.html
+│ │ ├── app.component.scss
+│ │ ├── app.component.spec.ts
+│ │ ├── app.config.ts
+│ │ └── app.config.server.ts
+│ │
+│ ├── environments/
+│ └── styles.scss
 │
+├── angular.json
 ├── package.json
 └── README.md
-```
-
----
 
 ## 🚀 Installation & Run Project
 
