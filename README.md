@@ -75,8 +75,6 @@ frontend-angular-test/
 └── README.md
 ```
 
----
-
 ## 🧠 Structure Explanation (Simple)
 
 - **layouts/admin-layout**
