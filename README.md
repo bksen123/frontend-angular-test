@@ -22,7 +22,7 @@ frontend-angular-test/
 ├── src/
 │   ├── app/
 │   │   ├── services/
-│   │   │   └── user.service.ts
+│   │   │   └── users.service.ts
 │   │   ├── components/
 │   │   │   └── user-list/
 │   │   │       ├── user-list.component.ts
